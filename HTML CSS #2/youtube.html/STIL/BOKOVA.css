@@ -1,0 +1,29 @@
+.BOK{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    z-index: 200;
+}
+.BOKov{
+    background-color:rgb(255, 255, 255);
+    height: 74px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.BOKov:hover{
+    background-color:lightgray ;
+}
+.BOKov img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.BOKov div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}

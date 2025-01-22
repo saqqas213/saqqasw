@@ -1,0 +1,95 @@
+.SUB {
+  background-color: rgb(203, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition:opacity 0.15s ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: top;
+}
+.SUB:hover{
+  opacity: 0.8;
+}
+.SUB:active{
+  opacity: 0.6;
+}
+.JOIN{
+  background-color: white;
+  border-color: rgb(29, 156, 235);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(29, 156, 235);
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: top;
+
+  transition:background-color 0.2s,
+  color 0.2s;
+}
+.JOIN:hover{
+  background-color:rgb(29, 156, 235) ;
+  color: white;
+}
+.JOIN:active{
+  opacity: 0.6;
+}
+.Tweet{
+  background-color:rgb(28, 151, 227);
+  border-style: solid;
+  color: white;
+  border-width: 0px;
+  border-radius: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.18);
+}
+.Amo {
+  background-color:rgb(255, 216, 20);
+  border-style: solid;
+  color: rgb(0, 0, 0);
+  border-width: 0px;
+  border-radius: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: top;
+  transition: padding 0.10s;
+}
+.Amo:hover{
+  opacity: 0.8;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Amo:active{
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
